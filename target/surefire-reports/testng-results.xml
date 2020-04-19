@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="6205" started-at="2020-04-09T22:27:14Z" finished-at="2020-04-09T22:27:20Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="6205" started-at="2020-04-09T22:27:14Z" finished-at="2020-04-09T22:27:20Z">
+      <class name="packFramework.TestCases">
+        <test-method status="PASS" signature="initBrowser()[pri:0, instance:packFramework.TestCases@21a947fe]" name="initBrowser" is-config="true" duration-ms="10116" started-at="2020-04-09T22:27:04Z" finished-at="2020-04-09T22:27:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method status="PASS" signature="Login()[pri:1, instance:packFramework.TestCases@21a947fe]" name="Login" duration-ms="2140" started-at="2020-04-09T22:27:14Z" finished-at="2020-04-09T22:27:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="SearchUser()[pri:2, instance:packFramework.TestCases@21a947fe]" name="SearchUser" duration-ms="3307" started-at="2020-04-09T22:27:16Z" finished-at="2020-04-09T22:27:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchUser -->
+        <test-method status="PASS" signature="Logout()[pri:3, instance:packFramework.TestCases@21a947fe]" name="Logout" duration-ms="723" started-at="2020-04-09T22:27:20Z" finished-at="2020-04-09T22:27:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- packFramework.TestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="TestNGXMLParameterization" thread-count="5">
+		<parameter name="browser" value="firefox"></parameter>
+		<parameter name="env" value="QA"></parameter>
+		
+		<classes>
+			<class name="parameterizationTestNG.TestNGXMLParameterization" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="TestNGXMLParameterization2" thread-count="5">
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="env" value="UAT"></parameter>
+		<classes>
+			<class name="parameterizationTestNG.TestNGXMLParameterization" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

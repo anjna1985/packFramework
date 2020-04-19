@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite (0)]">
+  <test thread-count="5" name="Regression Suite(failed)">
+    <classes>
+      <class name="com.mycompany.app.testng.TestCase2NG">
+        <methods>
+          <include name="validateTitles"/>
+        </methods>
+      </class> <!-- com.mycompany.app.testng.TestCase2NG -->
+      <class name="com.mycompany.app.testng.TestCase3TestNG">
+        <methods>
+          <include name="doUserReg"/>
+        </methods>
+      </class> <!-- com.mycompany.app.testng.TestCase3TestNG -->
+    </classes>
+  </test> <!-- Regression Suite(failed) -->
+</suite> <!-- Failed suite [Suite (0)] -->
