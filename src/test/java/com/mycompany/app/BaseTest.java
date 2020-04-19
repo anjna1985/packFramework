@@ -26,6 +26,10 @@ public class BaseTest
     {
        //Browser initialization code
 	   System.out.println("I m before suite");
+	   
+	   System.out.println("I m before suite");
+	   
+	   System.out.println("I m before suite");
 	  
 	  FileInputStream fl = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\resources\\data.properties"); 
 	 
